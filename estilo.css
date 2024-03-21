@@ -19,7 +19,7 @@
     .cuadro {
         justify-content: center;
         width: 200px;
-        height: 100px;
+        height: 200px;
         background: red;
         margin-left: 45%;
         margin-right: 30%;
@@ -29,8 +29,8 @@
 
 .cuadro:hover{  
 
-    width: 100px;
-      height: 100px;
+    width: 200px;
+      height: 200px;
       background: black;
       border-radius: 50%
       
