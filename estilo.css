@@ -23,34 +23,17 @@
         background: red;
         margin-left: 45%;
         margin-right: 30%;
-        margin: top 20px;;
-        transition: change 20s ease-in-out; /*transicion suave*/
-      }
+        margin: top 20px;
+        transition: transform 0.8s;
+    }
 
 .cuadro:hover{  
 
     width: 200px;
       height: 200px;
       background: black;
-      border-radius: 50%
+      border-radius: 50%;
       
-      
+    
 }
-    /*definicion de kf*/
-    @keyframes "change" {
 
-        from  {
-          
-        background: red;
-       }
-
-        to {   background-color: blue;}
-        
-    }
-
-    .cambio_c{
-
-        animation: change 10s ease-in-out 0 infinite alternate;
-
-
-    }
