@@ -1,0 +1,56 @@
+
+ 
+
+.header
+    {align-items: center;
+        background-color:red;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        font-size: 30px;
+        flex: 2;
+        height: 300px;
+        padding:5px;
+        margin: 2px;
+        
+    }
+
+
+    .cuadro {
+        justify-content: center;
+        width: 200px;
+        height: 100px;
+        background: red;
+        margin-left: 45%;
+        margin-right: 30%;
+        margin: top 20px;;
+        transition: change 20s ease-in-out; /*transicion suave*/
+      }
+
+.cuadro:hover{  
+
+    width: 100px;
+      height: 100px;
+      background: black;
+      border-radius: 50%
+      
+      
+}
+    /*definicion de kf*/
+    @keyframes "change" {
+
+        from  {
+          
+        background: red;
+       }
+
+        to {   background-color: blue;}
+        
+    }
+
+    .cambio_c{
+
+        animation: change 10s ease-in-out 0 infinite alternate;
+
+
+    }
